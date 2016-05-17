@@ -8,4 +8,5 @@ setup(name='learn_python_packaging',
       author_email='test@test.com',
       license='MIT',
       packages=['learn_python_packaging'],
+      install_requires=['requests'],
       zip_safe=False)
